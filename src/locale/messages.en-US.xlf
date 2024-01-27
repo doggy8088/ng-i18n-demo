@@ -17,6 +17,7 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">228</context>
         </context-group>
+        <note priority="1" from="description">放置在首頁的招呼語</note>
       </trans-unit>
       <trans-unit id="1136077837762423862" datatype="html">
         <source>恭喜！你的應用程式正在運行中！🎉</source>

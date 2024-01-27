@@ -227,6 +227,10 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <p>{{ today | date }}</p>
+      <p>{{ 1000 | number }}</p>
+      <p>{{ 1000 | currency }}</p>
+      <p>{{ 0.05 | percent }}</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

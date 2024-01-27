@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = $localize`i18n範例`;
+  title = $localize`:網站標題|這是本網站的主要標題:i18n範例`;
 }

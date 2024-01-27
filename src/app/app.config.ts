@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 import { provideHttpClient } from '@angular/common/http';
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
 }
 export const appConfig: ApplicationConfig = {
   providers: [

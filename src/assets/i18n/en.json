@@ -1,0 +1,4 @@
+{
+  "Hello": "Hello, {{ title }}",
+  "SiteTitle": "Congratulations! Your app is running. 🎉"
+}

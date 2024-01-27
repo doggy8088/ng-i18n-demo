@@ -10,7 +10,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "zh-Hant",
+        "sourceLocale": "zh-TW",
         "locales": {
           "en-US": {
             "translation": "src/locale/messages.en-US.xlf",
@@ -60,9 +60,9 @@
               "extractLicenses": false,
               "sourceMap": true
             },
-            "zh-Hant": {
-              "localize": ["zh-Hant"],
-              "baseHref": "/zh-Hant/"
+            "zh-TW": {
+              "localize": ["zh-TW"],
+              "baseHref": "/zh-TW/"
             },
             "en-US": {
               "localize": ["en-US"],
@@ -80,8 +80,8 @@
             "development": {
               "buildTarget": "ng-i18n-demo:build:development"
             },
-            "zh-Hant": {
-              "buildTarget": "ng-i18n-demo:build:development,zh-Hant"
+            "zh-TW": {
+              "buildTarget": "ng-i18n-demo:build:development,zh-TW"
             },
             "en-US": {
               "buildTarget": "ng-i18n-demo:build:development,en-US"

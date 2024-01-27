@@ -179,7 +179,7 @@
 
 <main class="main">
   <div class="content">
-    <div class="left-side">
+    <div class="left-side" i18n-title title="這是 Angular 標誌">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 982 239"
@@ -225,8 +225,8 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
-      <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <h1><ng-container i18n>哈囉</ng-container>, {{ title }}</h1>
+      <p i18n>恭喜！你的應用程式正在運行中！🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

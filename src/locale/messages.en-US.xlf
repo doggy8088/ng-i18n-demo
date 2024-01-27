@@ -28,8 +28,8 @@
           <context context-type="linenumber">229,230</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2830121303216929394" datatype="html">
-        <source>i18n範例</source>
+      <trans-unit id="4218755104345159128" datatype="html">
+        <source>多國語範例</source>
         <target>i18n example</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
@@ -37,6 +37,16 @@
         </context-group>
         <note priority="1" from="description">這是本網站的主要標題</note>
         <note priority="1" from="meaning">網站標題</note>
+      </trans-unit>
+      <trans-unit id="2211465157521451795" datatype="html">
+        <source>哈囉</source>
+        <target>Hi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">230,231</context>
+        </context-group>
+        <note priority="1" from="description">放置在內文的招呼語</note>
+        <note priority="1" from="meaning">內文招呼語</note>
       </trans-unit>
     </body>
   </file>

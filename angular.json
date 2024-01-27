@@ -9,10 +9,20 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "zh-Hant",
+        "locales": {
+          "en-US": {
+            "translation": "src/locale/messages.en-US.xlf",
+            "baseHref": "/en-US/"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/ng-i18n-demo",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -49,6 +59,14 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "zh-Hant": {
+              "localize": ["zh-Hant"],
+              "baseHref": "/zh-Hant/"
+            },
+            "en-US": {
+              "localize": ["en-US"],
+              "baseHref": "/en-US/"
             }
           },
           "defaultConfiguration": "production"
@@ -61,6 +79,12 @@
             },
             "development": {
               "buildTarget": "ng-i18n-demo:build:development"
+            },
+            "zh-Hant": {
+              "buildTarget": "ng-i18n-demo:build:development,zh-Hant"
+            },
+            "en-US": {
+              "buildTarget": "ng-i18n-demo:build:development,en-US"
             }
           },
           "defaultConfiguration": "development"

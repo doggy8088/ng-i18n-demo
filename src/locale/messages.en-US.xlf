@@ -5,35 +5,18 @@
       <trans-unit id="822056772914261675" datatype="html">
         <source>這是 Angular 標誌</source>
         <target>This is the Angular logo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">182,183</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="8022582046775660363" datatype="html">
         <source>哈囉</source>
         <target>Hello</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">228</context>
-        </context-group>
-        <note priority="1" from="description">放置在首頁的招呼語</note>
       </trans-unit>
       <trans-unit id="1136077837762423862" datatype="html">
         <source>恭喜！你的應用程式正在運行中！🎉</source>
         <target>Congratulations! Your application is running! 🎉</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">229,230</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="2065990894244085449" datatype="html">
         <source>i18n範例</source>
         <target>i18n example</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
       </trans-unit>
     </body>
   </file>
